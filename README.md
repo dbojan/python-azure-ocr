@@ -25,11 +25,11 @@ credit card will not be charged, or might be charged for $1 for testing
 if it real, and $1 will charged back"
 
 If you haven’t already:  
-- Create free azure account,  
-- using azure web dash board, create a resource:  
-- click on +  
-- computer vision  
-  - subscription: something line Azure subscription  
+- Create free azure account  
+- go to https://portal.azure.com/#home
+- click on computer vision on the left
+- click on + to create new resource in "computer vision"  
+  - subscription: something like Azure subscription  
   - resource group: create new, something like: ocr-test1  
   - region: I selected North EU  
   - name: enter what ever you want  
