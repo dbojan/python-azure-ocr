@@ -1,3 +1,10 @@
+
+
+# python-azure-ocr
+
+use azure ocr from python  
+#2024-05-18-1  
+
 ## setting azure
 
 You can use azure 12 months for free, then you have to pay $1 for 1000
