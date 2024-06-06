@@ -94,6 +94,10 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 12 months free services is available only to new customers who have not previously had an Azure account or received 12 months of free services. It is not currently available to customers who sign up directly for pay as you go in China and India. Customers who try Azure free **must move to pay as you go** within 30 days to continue receiving 12 months free services.
 
 
+https://learn.microsoft.com/en-us/azure/ai-services/translator/translator-faq  
+**Each translation counts as a separate translation**
+
+
 more info here MS:  
 https://azure.microsoft.com/en-us/free/free-account-faq/  
 https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/avoid-charges-free-account  
@@ -110,5 +114,4 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Speech Translation|Integrate real-time speech translation into your app.|AI + machine learning|5 audio hours Standard|Always 
 |*Text to Speech|Build apps that convert text to lifelike speech.|AI + machine learning|5 million characters Standard, 500,000 characters Neural, and hosting model|Always 
 |Azure AI Document Intelligence (old?)|Automate the extraction of text, key/value pairs, and tables from your documents.|AI + machine learning|500 pages S0 tier|12 months
-
-
+|*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
