@@ -58,6 +58,30 @@ Note: some versions of azure-ocr are not available for free tiers.
 
 
 *Note:  
+
+What happens after I upgrade?  
+You get 12 months of popular services for free, plus more
+than 25 products that are always free. Beyond what's free, you
+pay only for what you use each month and you can cancel any
+time!
+
+What happens to the Azure credit if I upgrade before 30 days?  
+Your remaining credit will still be available for the full 30 days
+after you started your Azure free account.
+
+Do I have to pay after I upgrade?  
+As long as you use the the product quantities that are
+included for free, you won't have to pay anything.
+
+What happens with my products if I do not upgrade?  
+If you don't upgrade by the end of 30 days or before you've
+used your Azure credit (whichever occurs first), you won't be
+able to access any Azure services.
+
+
+
+
+
 https://azure.microsoft.com/en-us/free/free-account-faq  
 How do I get popular services free for 12 months?  
 
@@ -70,7 +94,7 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 12 months free services is available only to new customers who have not previously had an Azure account or received 12 months of free services. It is not currently available to customers who sign up directly for pay as you go in China and India. Customers who try Azure free **must move to pay as you go** within 30 days to continue receiving 12 months free services.
 
 
-more info here:  
+more info here MS:  
 https://azure.microsoft.com/en-us/free/free-account-faq/  
 https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/avoid-charges-free-account  
 https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/check-free-service-usage  
