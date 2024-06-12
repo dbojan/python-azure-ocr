@@ -3,7 +3,7 @@
 # python-azure-ocr
 
 use azure ocr from python  
-#2024-05-18-1  
+#2024-06-12-1  
 
 ## setting azure
 
