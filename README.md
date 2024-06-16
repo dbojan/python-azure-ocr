@@ -5,6 +5,9 @@
 use azure ocr from python  
 #2024-06-12-1  
 
+replace dot with newline  
+#2024-06-16-1
+
 ## setting azure
 
 You can use azure 12 months for free, then you have to pay $1 for 1000
