@@ -3,7 +3,7 @@
 # python-azure-ocr
 
 use azure ocr from python  
-#2024-06-12-1  
+#2024-06-26-1  
 
 replace dot with newline  
 #2024-06-16-1
@@ -118,3 +118,7 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |*Text to Speech|Build apps that convert text to lifelike speech.|AI + machine learning|5 million characters Standard, 500,000 characters Neural, and hosting model|Always 
 |Azure AI Document Intelligence (old?)|Automate the extraction of text, key/value pairs, and tables from your documents.|AI + machine learning|500 pages S0 tier|12 months
 |*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
+
+
+#2024-06-26-1 changes  
+-now with linux support. open .py in text editor for more info.
