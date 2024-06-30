@@ -3,7 +3,7 @@
 # python-azure-ocr
 
 use azure ocr from python  
-#2024-06-26-1  
+#2024-06-30-1  
 
 replace dot with newline  
 #2024-06-16-1
