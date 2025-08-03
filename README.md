@@ -2,11 +2,15 @@
 
 # python-azure-ocr
 
-use azure ocr from python  
-#2024-06-30-1  
+-2025-08-03-1  
+small updates, use -U to update python lib
 
+-2024-06-30-1  
+use azure ocr from python  
+
+-2024-08-05-1
 replace dot with newline  
-#2024-08-05-1
+
 
 ## setting azure
 
