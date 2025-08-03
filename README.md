@@ -12,6 +12,8 @@ You can use azure 12 months for free, then you have to pay $1 for 1000 images. Y
 
 How to use it:
 
+right click [here](https://raw.githubusercontent.com/dbojan/python-azure-ocr/refs/heads/main/azure_ocr.zip), select save link as, uncompress.
+
 put pdf file in 'ocr' folder, click on _zocr_files_in_ocr_folder.bat, last file in folder.
 
 
