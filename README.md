@@ -2,7 +2,7 @@
 
 2025-08-03-1
 
-What is it:
+### What is it:
 
 Command line tool to use ocr from azure cloud. You need free azure account.
 
@@ -10,7 +10,7 @@ You can use azure 12 months for free, then you have to pay $1 for 1000 images. Y
 
 (20 Images per minute, 5k per month). 
 
-How to use it:
+### How to use it:
 
 right click [here](https://raw.githubusercontent.com/dbojan/python-azure-ocr/refs/heads/main/azure_ocr.zip), select save link as, uncompress.
 
