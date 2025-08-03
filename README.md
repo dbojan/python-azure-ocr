@@ -1,6 +1,6 @@
-
-
 # python-azure-ocr
+
+2025-08-03-1
 
 What is it:
 
