@@ -2,31 +2,20 @@
 
 # python-azure-ocr
 
--2025-08-03-1  
-small updates, use -U to update python lib
+What is it:
 
--2024-06-30-1  
-use azure ocr from python  
+Command line tool to use ocr from azure cloud. You need free azure account.
 
--2024-08-05-1
-replace dot with newline  
+You can use azure 12 months for free, then you have to pay $1 for 1000 images. You **must move to** pay as you go (basic supscription - $0) after first month. Be careful not to go over free amount of units.
+
+(20 Images per minute, 5k per month). 
+
+How to use it:
+
+put pdf file in 'ocr' folder, click on _zocr_files_in_ocr_folder.bat, last file in folder.
 
 
 ## setting azure
-
-You can use azure 12 months for free, then you have to pay $1 for 1000
-images. You **must move to** pay as you go (basic supscription - $0) after first month. Be careful not to go over free amount of units. *
-
-(20 Images per minute, 5k per month). Using ‘document studio’
-Pdfs/Multipage tiffs will only scan 1st image.
-
-Command line version of python-azure-ocr utility does not accept pdfs.
-
-you can use pdf-xchange viewer to convert pdf to images, or command line
-(Ghostscript):
-
-`gswin32c.exe -sCompression=pack -dTextAlphaBits=4 -dGraphicsAlphaBits=4  -sDEVICE=tiffgray -r300 -o out-%%03d.tif file.pdf `
-
 
 You need phone number (not virtual), and credit card number. “Your
 credit card will not be charged, or might be charged for $1 for testing
@@ -124,5 +113,14 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
 
-#2024-06-26-1 changes  
+-2025-08-03-1  
+small updates, use -U to update python lib
+
+-2024-08-05-1
+replace dot with newline  
+
+-2024-06-30-1  
+use azure ocr from python  
+
+2024-06-26-1 changes  
 -now with linux support. open .py in text editor for more info.
