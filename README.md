@@ -42,7 +42,7 @@ You will need **one key**, doesn’t matter which one, and **endpoint**, to use 
 
 if you haven’t already, install ‘azure-ai-vision-imageanalysis’ using
 pip:  
-`pip install azure-ai-vision-imageanalysis`
+`pip install -U azure-ai-vision-imageanalysis`
 
 Note: some versions of azure-ocr are not available for free tiers.
 
