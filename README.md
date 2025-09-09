@@ -1,6 +1,6 @@
 # python-azure-ocr
 
-2025-08-03-1
+2025-09-09-1
 
 ### What is it:
 
@@ -102,6 +102,13 @@ https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/avoid-cha
 https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/check-free-service-usage  
 https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/upgrade-azure-subscription  
 
+pricing, after free:  
+https://azure.microsoft.com/en-us/pricing/details/ai-document-intelligence/ (prebuilt-model is more expensive than prebuilt-read)  
+https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/model-overview (v4, prebuilt-model has tables, prebuilt-read does not)  
+
+https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/ (old, no tables recognition)  
+
+
 relevant services:  
 https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492  
 
@@ -115,6 +122,9 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Azure AI Document Intelligence (old?)|Automate the extraction of text, key/value pairs, and tables from your documents.|AI + machine learning|500 pages S0 tier|12 months
 |*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
+
+-2025-09-09-1  
+small update to web page, added some links
 
 -2025-08-03-1  
 small updates, use -U to update python lib
