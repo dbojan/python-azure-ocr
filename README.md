@@ -99,6 +99,7 @@ https://learn.microsoft.com/en-us/azure/ai-services/translator/translator-faq
 more info here MS:  
 https://azure.microsoft.com/en-us/free/free-account-faq/  
 https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/avoid-charges-free-account  
+https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/upgrade-azure-subscription  
 https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/check-free-service-usage  
 
 relevant services:  
