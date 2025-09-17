@@ -1,14 +1,14 @@
 # python-azure-ocr
 
-2025-09-09-1
+2025-09-17-1
 
 ### What is it:
 
 Command line tool to use ocr from azure cloud. You need free azure account, and python.
 
-You can use azure 12 months for free, then you have to pay $1 for 1000 images. You **must move to** pay as you go (basic supscription - $0) after first month. Be careful not to go over free amount of units.
+You can use azure 12 months for free, then you have to pay $1 for 1000 images. You **must move to** pay as you go (basic supscription - $0) after first month, or it will not work after month. Be careful not to go over free amount of units.
 
-(20 Images per minute, 5k per month). 
+(With regards to pages, azure ai vision(ocrv1), can ocr max in 20 Images per minute, 5k per month for free tier). 
 
 ### How to use it:
 
@@ -17,7 +17,7 @@ Right click [here](https://raw.githubusercontent.com/dbojan/python-azure-ocr/ref
 Put pdf file in 'ocr' folder, click on '_zocr_files_in_ocr_folder.bat', (the last file in folder).
 
 
-## setting azure
+## setting azure v1 (no tables, cheaper)
 
 You need phone number (not virtual), and credit card number. “Your
 credit card will not be charged, or might be charged for $1 for testing
@@ -38,7 +38,7 @@ When you click on you created resurce, you will see your **key(s) and
 endpoint.**
 You will need **one key**, doesn’t matter which one, and **endpoint**, to use the program.
 
-## setting python
+## setting python v1 (no tables, cheaper)
 
 if you haven’t already, install ‘azure-ai-vision-imageanalysis’ using
 pip:  
@@ -46,14 +46,23 @@ pip:
 
 Note: some versions of azure-ocr are not available for free tiers.
 
+## setting azure v2 (tables, more expensive)
+
+`pip install -U azure-ai-documentintelligence`  
+there are two models:
+- prebuilt-read, which is cheaper, does not recognize tables, and has **worse** ocr recognition  
+- prebuilt-layout, more expensive, better ocr of characters than prebulit-layout, recognizes tables  
+
+choose model by editinig "azure2_ocr.py", and setting var st_model= to prebulit-read, or prebuilt-layout
+
 ## using the program
 
 - download zip, unpack,  
 - open azure_ocr.py in notepad++, or notepad,  
 - enter your **key and endpoint**  
 - put images created from pdf into 'ocr' folder  
-- double click “azure_ocr.bat”
-
+- double click “azure_ocr.bat”, or "azure2_ocr.bat"  
+  (azure 2 lines output to output.txt could use improvement, though)
 
 *Note:  
 
