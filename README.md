@@ -49,6 +49,8 @@ Note: some versions of azure-ocr are not available for free tiers.
 ## setting azure v2 (tables, more expensive)
 
 `pip install -U azure-ai-documentintelligence`  
+- on azure ocr portal create "document inteligence" resource. Location: north eu, tier: free  
+  
 there are two models:
 - prebuilt-read, which is cheaper, does not recognize tables, and has **worse** ocr recognition  
 - prebuilt-layout, more expensive, better ocr of characters than prebulit-layout, recognizes tables  
@@ -131,6 +133,12 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Azure AI Document Intelligence (old?)|Automate the extraction of text, key/value pairs, and tables from your documents.|AI + machine learning|500 pages S0 tier|12 months
 |*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
+
+-2025-09-17-09  
+added v2, which uses two possible models, prebuilt-layout and prebuilt-read  
+prebuilt-layout (default) recognizes tables.  
+v2 uses document intelligence. 
+v1 (previous version) uses ai vision  
 
 -2025-09-09-1  
 small update to web page, added some links
