@@ -63,8 +63,8 @@ choose model by editinig "azure2_ocr.py", and setting var st_model= to prebulit-
 - open azure_ocr.py in notepad++, or notepad,  
 - enter your **key and endpoint**  
 - put images created from pdf into 'ocr' folder  
-- double click “azure1_ocr.bat”, or "azure2_ocr.bat"  
-  (azure 2 lines output to output.txt could use improvement, though)
+- double click **“_zocr_files_in_ocr_folder v1.bat”**, or **"_zocr_files_in_ocr_folder v2.bat"**  
+  ("_zocr_files_in_ocr_folder v2" lines output to output.txt could use improvement, though)  
 
 *Note:  
 
