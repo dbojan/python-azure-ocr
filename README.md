@@ -1,6 +1,6 @@
 # python-azure-ocr
 
-2025-09-17-1
+2025-09-18-1
 
 ### What is it:
 
@@ -133,8 +133,10 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Azure AI Document Intelligence (old?)|Automate the extraction of text, key/value pairs, and tables from your documents.|AI + machine learning|500 pages S0 tier|12 months
 |*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
+-2025-09-18-1
+added to azure2_ocr.py: pip install -U python-docx
 
--2025-09-17-09  
+-2025-09-17-01  
 added v2, which uses two possible models, prebuilt-layout and prebuilt-read  
 prebuilt-layout (default) recognizes tables.  
 v2 uses document intelligence. 
