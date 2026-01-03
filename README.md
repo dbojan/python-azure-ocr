@@ -1,6 +1,6 @@
 # python-azure-ocr
 
-2025-12-15-1
+2025-12-31-1
 
 ### What is it:
 
@@ -63,7 +63,7 @@ choose model by editinig "azure2_ocr.py", and setting var st_model= to prebulit-
 - open azure_ocr.py in notepad++, or notepad,  
 - enter your **key and endpoint**  
 - put images created from pdf into 'ocr' folder  
-- double click **“_zocr_files_in_ocr_folder v1.bat”**, or **"_zocr_files_in_ocr_folder v2.bat"**  
+- double click bat file needed for text files, or another bat file for tables. 
   ("_zocr_files_in_ocr_folder v2" lines output to output.txt could use improvement, though)  
 
 *Note:  
@@ -133,6 +133,9 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Azure AI Document Intelligence (old?)|Automate the extraction of text, key/value pairs, and tables from your documents.|AI + machine learning|500 pages S0 tier|12 months
 |*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
+-2025-12-31-1  
+added linux version of 2 files  
+added () to sort ...
 
 -2025-12-15-1  
 added newline after table
