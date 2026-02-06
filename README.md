@@ -134,7 +134,7 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
 -2025-02-06-1  
-changed _azure_ocr1.py, should not mix lines now. you should deskew scanned document first.
+changed _azure_ocr1.py, should not mix lines now. you should deskew scanned document first, if it is heavily rotated..
 
 
 -2025-12-31-1  
