@@ -146,13 +146,13 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 
 |Azure service|Description|Type|Free monthly amount|Free period 
 |---|---|---|----|---
-|*Computer Vision|Extract rich information from images to categorize and process visual data.|	|5,000 transactions for each S1, S2, and S3 tier|12 months 
+|Computer Vision|Extract rich information from images to categorize and process visual data, no tables|	|5,000 transactions for each S1, S2, and S3 tier|12 months 
+|Azure AI Document Intelligence|Automate the extraction of text, key/value pairs, and tables from your documents.|AI + machine learning|500 pages S0 tier|12 months
 |Speaker Recognition|Accurately verify and identify speakers by their unique voice characteristics.|AI + machine learning|10,000 transactions each of speaker verification, speaker identification, and voice storage|Always
-|*Speech to Text|Transcribe spoken audio to text.|AI + machine learning|5 audio hours each of Standard, Custom, and Conversation Transcription Multichannel Audio, 1 Custom endpoint hosting model|Always 
+|Speech to Text|Transcribe spoken audio to text.|AI + machine learning|5 audio hours each of Standard, Custom, and Conversation Transcription Multichannel Audio, 1 Custom endpoint hosting model|Always 
 |Speech Translation|Integrate real-time speech translation into your app.|AI + machine learning|5 audio hours Standard|Always 
-|*Text to Speech|Build apps that convert text to lifelike speech.|AI + machine learning|5 million characters Standard, 500,000 characters Neural, and hosting model|Always 
-|Azure AI Document Intelligence (old?)|Automate the extraction of text, key/value pairs, and tables from your documents.|AI + machine learning|500 pages S0 tier|12 months
-|*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
+|Text to Speech|Build apps that convert text to lifelike speech.|AI + machine learning|5 million characters Standard, 500,000 characters Neural, and hosting model|Always 
+|Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
 
 -2025-02-06-1  
