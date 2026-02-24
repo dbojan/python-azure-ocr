@@ -34,11 +34,20 @@ If you haven’t already:
   - name: enter what ever you want  
   - pricing: select free f0 (20 calls per minute, 5k per month)
 
+PRICING:  
+First month:
+Free (F0) - Web/Container	All:
+- 5,000 free transactions per month 20 transactions per minute
+
+After first month, you have to switch to pay mode, but they will not bill you unless you go over limit:  
+0-1M transactions - $1 per 1,000 transactions
+
+ 
 When you click on you created resurce, you will see your **key(s) and
 endpoint.**
 You will need **one key**, doesn’t matter which one, and **endpoint**, to use the program.
 
-## setting python v1 (no tables, cheaper)
+## setting azure v1 in python (no tables, cheaper)
 
 if you haven’t already, install ‘azure-ai-vision-imageanalysis’ using
 pip:  
@@ -46,7 +55,7 @@ pip:
 
 Note: some versions of azure-ocr are not available for free tiers.
 
-## setting azure v2 (tables, more expensive)
+## setting azure v2 in python (tables, more expensive)
 
 `pip install -U azure-ai-documentintelligence`  
 - on azure ocr portal create "document inteligence" resource. Location: north eu, tier: free  
@@ -56,6 +65,18 @@ there are two models:
 - prebuilt-layout, more expensive, better ocr of characters than prebulit-layout, recognizes tables  
 
 choose model by editinig "azure2_ocr.py", and setting var st_model= to prebulit-read, or prebuilt-layout
+
+PRICING:
+First month free:
+- Free - Web/Container1 	All 	0 - 500 pages free per month  
+
+After first month, you have to switch to pay mode, but they will not bill you unless you go over limit:  
+- TEXT ONLY:
+  - 0-1M pages - $1.50 per 1,000 pages 
+  - 1M+ pages - $0.60 per 1,000 pages 
+- TABLES INLCUDED:  
+  - All Prebuilt Models: Document, Layout, ... 	$10 per 1,000 pages
+
 
 ## using the program
 
