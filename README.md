@@ -68,7 +68,7 @@ choose model by editinig "azure2_ocr.py", and setting var st_model= to prebulit-
 
 PRICING:
 First month free:
-- Free - Web/Container1 	All 	0 - 500 pages free per month  
+- Free - Web/Container1 	All, 	0 - 500 pages free per month  
 
 After first month, you have to switch to pay mode, but they will not bill you unless you go over limit:  
 - TEXT ONLY:
