@@ -1,6 +1,6 @@
 # python-azure-ocr
 
-2026-02-06-1
+2026-02-24-1
 
 ### What is it:
 
@@ -132,6 +132,10 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |*Text to Speech|Build apps that convert text to lifelike speech.|AI + machine learning|5 million characters Standard, 500,000 characters Neural, and hosting model|Always 
 |Azure AI Document Intelligence (old?)|Automate the extraction of text, key/value pairs, and tables from your documents.|AI + machine learning|500 pages S0 tier|12 months
 |*Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
+
+
+-2025-02-06-1  
+slight changes in linux.sh files, added bin/bash line  
 
 -2025-02-06-1  
 changed _azure_ocr1.py, should not mix lines now. you should deskew scanned document first, if it is heavily rotated..
