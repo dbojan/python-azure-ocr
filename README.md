@@ -40,7 +40,7 @@ Free (F0) - Web/Container	All:
 - 5,000 free transactions per month 20 transactions per minute
 
 After first month, you have to switch to pay mode, but they will not bill you unless you go over limit:  
-0-1M transactions - $1 per 1,000 transactions
+- 0-1M transactions - $1 per 1,000 transactions
 
  
 When you click on you created resurce, you will see your **key(s) and
