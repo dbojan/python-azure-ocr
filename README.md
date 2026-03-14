@@ -4,7 +4,7 @@
 
 ### What is it:
 
-Command line tool to use ocr from azure cloud. You need free azure account, and python.
+Command line tool to use ocr from azure cloud. You need free azure account (and credit card, but won't be charged if you are under generous limit, see below for details), and python.
 
 You can use azure 12 months for free, then you have to pay $1 for 1000 images. You **must move to** pay as you go (basic supscription - $0) after first month, or it will not work after month. Be careful not to go over free amount of units.
 
