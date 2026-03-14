@@ -1,6 +1,6 @@
 # python-azure-ocr
 
-2026-02-24-3
+2026-03-14-1
 
 ### What is it:
 
@@ -155,6 +155,8 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
 
+-2026-03-14-1  
+improved support for tables. you can also edit settings using variables in _azure_ocr2.py, at the start of the file.
 
 -2026-02-24-3    
 minor changes in output fomatting
