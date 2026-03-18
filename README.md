@@ -1,6 +1,6 @@
 # python-azure-ocr
 
-2026-03-14-1
+2026-03-18-1
 
 ### What is it:
 
@@ -154,6 +154,9 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Text to Speech|Build apps that convert text to lifelike speech.|AI + machine learning|5 million characters Standard, 500,000 characters Neural, and hosting model|Always 
 |Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
+-2026-03-18-1  
+added _geanu_txt_to_docx.py to 'convert txt to docx' and 'convert txt to docx and mail' from geany using build menu.  
+remember to save file first in geany.  
 
 -2026-03-14-1  
 improved support for tables. you can also edit settings using variables in _azure_ocr2.py, at the start of the file.
