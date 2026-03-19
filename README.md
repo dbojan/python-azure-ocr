@@ -154,7 +154,7 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Text to Speech|Build apps that convert text to lifelike speech.|AI + machine learning|5 million characters Standard, 500,000 characters Neural, and hosting model|Always 
 |Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
--2026-03-19-1
+-2026-03-19-1  
 added replace '·' at start with '-', in _remove_newlines1.py
 
 -2026-03-18-1  
