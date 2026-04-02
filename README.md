@@ -1,6 +1,6 @@
 # python-azure-ocr
 
-2026-03-19-1
+2026-4-2-1
 
 ### What is it:
 
@@ -153,6 +153,11 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Speech Translation|Integrate real-time speech translation into your app.|AI + machine learning|5 audio hours Standard|Always 
 |Text to Speech|Build apps that convert text to lifelike speech.|AI + machine learning|5 million characters Standard, 500,000 characters Neural, and hosting model|Always 
 |Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
+
+
+-2026-4-2-1  
+using png instead of tiff, cause azure does not accept tiff anymore?  
+updated _azaure_ocr2.py to not add newline, if line starts with . or - (list item)
 
 -2026-03-19-1  
 added replace '·' at start with '-', in _remove_newlines1.py
