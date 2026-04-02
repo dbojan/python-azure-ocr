@@ -157,7 +157,7 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 
 -2026-4-2-1  
 using png instead of tiff, cause azure does not accept tiff anymore?  
-updated _azaure_ocr2.py to not add newline, if line starts with . or - (list item)
+updated _azaure_ocr2.py to not add newline, if line starts with '·' or '-' (list item)
 
 -2026-03-19-1  
 added replace '·' at start with '-', in _remove_newlines1.py
