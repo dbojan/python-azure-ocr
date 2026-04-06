@@ -164,10 +164,11 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 
 -2026-04-06-1
 added support for google cloud vision ocr, under 1000 pages per month free, no tables support (in free)  
-see readme.txt for setting google cloud vision.
+see readme.txt for setting google cloud vision.  
 added log.txt, which logs how many pages did each ocr script "_ ocr_ ", to disable set logfiles=0 in _call_ocr.sh  
 added deskew, to disable set deskew=0 in _call_ocr.sh  
-windows version is less supported, does not have deskew, or log implemented. if there is need, I will add it. maybe. probably.
+windows version is less supported, does not have deskew, or log implemented. if there is need, I will add it. maybe. probably.  
+previous version of zip is moved to old folder
 
 -2026-4-2-1  
 using png instead of tiff, cause azure does not accept tiff anymore?  
