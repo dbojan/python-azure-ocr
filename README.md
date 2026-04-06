@@ -6,7 +6,7 @@
 
 Command line tool to use ocr from azure cloud. 
 
-With google cloud vision as backup (no tables in free version).
+With 'google cloud vision ocr' as backup (no tables in free version, lower quality ocr).
 
 You need free azure account (and credit card, but won't be charged if you are under generous limit, see below for details), and python.
 
