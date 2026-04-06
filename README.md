@@ -159,8 +159,12 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 |Text to Speech|Build apps that convert text to lifelike speech.|AI + machine learning|5 million characters Standard, 500,000 characters Neural, and hosting model|Always 
 |Azure AI Translator |Add real-time, multi-language text translation to your apps, websites, and tools. |AI + machine learning |2 million characters S0 tier |12 months 
 
+
+
+
 -2026-04-06-1
 added support for google cloud vision ocr, under 1000 pages per month free, no tables support (in free)  
+see readme.txt for setting google cloud vision.
 added log.txt, which logs how many pages did each ocr script "_ ocr_ ", to disable set logfiles=0 in _call_ocr.sh  
 added deskew, to disable set deskew=0 in _call_ocr.sh  
 windows version is less supported, does not have deskew, or log implemented. if there is need, I will add it. maybe. probably.
