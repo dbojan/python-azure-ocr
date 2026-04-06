@@ -4,7 +4,11 @@
 
 ### What is it:
 
-Command line tool to use ocr from azure cloud. You need free azure account (and credit card, but won't be charged if you are under generous limit, see below for details), and python.
+Command line tool to use ocr from azure cloud. 
+
+With backup as google cloud vision.
+
+You need free azure account (and credit card, but won't be charged if you are under generous limit, see below for details), and python.
 
 You can use azure 12 months for free, then you have to pay $1 for 1000 images. You **must move to** pay as you go (basic supscription - $0) after first month, or it will not work after month. Be careful not to go over free amount of units.
 
@@ -81,8 +85,9 @@ After first month, you have to switch to pay mode, but they will not bill you un
 ## using the program
 
 - download zip, unpack,  
-- open azure_ocr.py in notepad++, or notepad,  
-- enter your **key and endpoint**  
+- open azure_ocr1_text.py in notepad++, or notepad,  
+- enter your **key and endpoint**  for computer(ai) vision for text1,
+- open azure_ocr2_tables.py in notepad++, or notepad,  nd enter key and endpoint for document intelligence
 - put images created from pdf into 'ocr' folder  
 - double click bat file needed for text files, or another bat file for tables. 
   ("_zocr_files_in_ocr_folder v2" lines output to output.txt could use improvement, though)  
@@ -159,9 +164,6 @@ added support for google cloud vision ocr, under 1000 pages per month free, no t
 added log.txt, which logs how many pages did each ocr script "_ ocr_ ", to disable set logfiles=0 in _call_ocr.sh  
 added deskew, to disable set deskew=0 in _call_ocr.sh  
 windows version is less supported, does not have deskew, or log implemented. if there is need, I will add it. maybe. probably.
-
-
-
 
 -2026-4-2-1  
 using png instead of tiff, cause azure does not accept tiff anymore?  
