@@ -1,6 +1,6 @@
 # ocr-mix
 
-2026-04-06-1
+2026-04-07-1
 
 ### What is it:
 
@@ -162,6 +162,9 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 
 todo:  
 write proper howto  
+
+-2026-04-07-1  
+minor renaming of files.
 
 -2026-04-06-1  
 added support for google cloud vision ocr, under 1000 pages per month free, no tables support (in free)  
