@@ -18,7 +18,7 @@ You can use azure 12 months for free, then you have to pay $1 for 1000 images. Y
 
 Right click [here](https://raw.githubusercontent.com/dbojan/python-azure-ocr/refs/heads/main/azure_ocr.zip), select save link as, uncompress.
 
-Put pdf file in 'ocr' folder, click on '_zocr_files_in_ocr_folder.bat', (the last file in folder).
+Put pdf file in 'ocr' folder, click on 'start ocr.sh' (linux), or 'start ocr.bat' windows. for windows copy bat files from 'others' folder to root. windows is not as much supported as linux.
 
 
 ## setting azure v1 (no tables, cheaper)
