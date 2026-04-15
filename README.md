@@ -1,6 +1,6 @@
 # ocr-mix
 
-2026-04-07-1
+2026-04-15-1
 
 ### What is it:
 
@@ -162,6 +162,10 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 
 todo:  
 write proper howto  
+
+
+-2026-04-15-1  
+added default to menu, (1), starts when press just enter.  
 
 -2026-04-07-1  
 minor renaming of files.
