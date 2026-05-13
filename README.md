@@ -4,7 +4,7 @@
 
 ### What is it:
 
-Command line tool to use ocr from azure cloud. 
+Command line tool to use convert image to text using azure cloud ocr. 
 
 With 'google cloud vision ocr' as backup (no tables in free version, lower quality ocr than azure).
 
