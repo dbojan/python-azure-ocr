@@ -1,6 +1,6 @@
 # ocr-mix
 
-2026-04-18-1
+2026-05-13-1
 
 ### What is it:
 
@@ -162,6 +162,11 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 
 todo:  
 write proper howto  
+
+-2026-05-13-1  
+added export to pandoc gridtables for azure-ocr-tables. it adds column widht, row height and text alingment info if available, using comments.  
+you can convert using geany_convert.py from the zip file.
+
 
 -2026-04-18-1  
 added '-progress' to process of converting pdf pages to png images.
