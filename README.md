@@ -165,7 +165,8 @@ write proper howto
 
 -2026-05-13-1  
 added export to pandoc gridtables for azure-ocr-tables. it adds column widht, row height and text alingment info if available, using comments.  
-you can convert using geany_convert.py from the zip file.
+you can convert using geany_convert.py from the zip file.  
+Included in geany comment is latin -> cyrillic script and vice versa.  
 
 
 -2026-04-18-1  
