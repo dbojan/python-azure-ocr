@@ -1,6 +1,6 @@
 # ocr-mix
 
-2026-07-07-11-41-24
+2026-07-07-14-18-07
 
 ### What is it:
 
@@ -164,8 +164,10 @@ todo:
 write proper howto  
 
 
-2026-07-07-11-41-24
+2026-07-07-14-18-07  
+-minor corrections
 
+2026-07-07-11-41-24  
 added feature to merge pandoc tables when table and columns are of diffrent width:
 from geany, setup run command (key binding f5) to use this command line
 
