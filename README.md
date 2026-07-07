@@ -163,6 +163,27 @@ https://azure.microsoft.com/en-us/pricing/free-services#richtext-oc4492
 todo:  
 write proper howto  
 
+
+2026-07-07-11-41-24
+
+added feature to merge pandoc tables when table and columns are of diffrent width:
+from geany, setup run command (key binding f5) to use this command line
+
+sh -c "python /home/b/data/p_ocr_mix/_geany_text_and_gridtables_to_docx.py '%f' "  
+
+(adjust path to py file). when you txt save file in geany, and press f5 it will convert txt (even with pandoc tables)  
+Added feature to '_geany_text_and_gridtables_to_docx.py' to auto-merge tables that have **same** number of columns, but different column width to one table, and are edited to be continous, example
+```
++----------+-------------------------+--------------------+-------------+-------------+
+| 99       | aaaaaaaaaaaaa aaaaaaaaa | 123455667          | 1234        | 11234       |
++----------+-------------------------+--------------------+-------------+-------------+
+| 45  | bbbbbbbbb cccccccc    | 123445560 | 1234 | 12344 |
++-----+-----------------------+-----------+------+-------+
+```
+you have to remove top +----+ ... line from the next table, so the program recognizes them as single table. New table will have the same table width and columns width as the first table. 
+
+
+
 -2026-07-02-13-30-38  
 minor changes  
 
