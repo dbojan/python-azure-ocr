@@ -1,6 +1,6 @@
 # ocr-mix
 
-2026-07-07-14-18-07
+2026-07-08-06-19-43
 
 ### What is it:
 
@@ -164,6 +164,9 @@ todo:
 write proper howto  
 
 ## Changes:
+
+2026-07-08-06-19-43  
+-fixed table positions (for azure2, and text_and_gridtables_to_docx)
 
 2026-07-07-14-18-07  
 -minor corrections
