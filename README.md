@@ -1,6 +1,6 @@
 # ocr-mix
 
-2026-07-08-06-19-43
+2026-07-22-15-28-21
 
 ### What is it:
 
@@ -165,6 +165,16 @@ write proper howto
 
 ## Changes:
 
+2026-07-22-15-28-21
+- reorganized files, moved common settings for common files.py.
+- windows should be supported again. check folder others.
+- added versions:
+  - azure3 - use text format ocr + manual table detection - don't use this, use azure 1 for text, azure 2 for tables
+  - google vision 2 - manual table detection (if azure 2 is unavailable, and you need basic table detection. does only basic table detection)
+  - tesseract 2 - manual table detection -- see google vision 2
+- added tag: 'merge: yes' to table meta tags, in gridtables (azure 2, azure 3, gvision 2, tesseract 2), to merge table to previous one. there cannot be text between 'to be merged' tables. default tag is 'merge: no' change to 'merge: yes' to join to previous table. obviously, they should have the same number of columns.
+
+
 2026-07-08-06-19-43  
 -fixed table positions (for azure2, and text_and_gridtables_to_docx)
 
@@ -179,13 +189,9 @@ sh -c "python /home/b/data/p_ocr_mix/_geany_text_and_gridtables_to_docx.py '%f' 
 
 (adjust path to py file). when you txt save file in geany, and press f5 it will convert txt (even with pandoc tables)  
 Added feature to '_geany_text_and_gridtables_to_docx.py' to auto-merge tables that have **same** number of columns, but different column width to one table, and are edited to be continous, example
-```
-+----------+-------------------------+--------------------+-------------+-------------+
-| 99       | aaaaaaaaaaaaa aaaaaaaaa | 123455667          | 1234        | 11234       |
-+----------+-------------------------+--------------------+-------------+-------------+
-| 45  | bbbbbbbbb cccccccc    | 123445560 | 1234 | 12344 |
-+-----+-----------------------+-----------+------+-------+
-```
+
+removed table example. use 'merge: yes', to merge table to previous one. there cannot be text between 'to be merged' tables
+
 you have to remove top +----+ ... line from the next table, so the program recognizes them as single table. New table will have the same table width and columns width as the first table. 
 
 
